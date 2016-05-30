@@ -80,6 +80,9 @@ h2, h3{
 	font-size: 15px;
 	line-height: 15px;
 }
+p{
+	font-size: 12px;
+}
 footer{
 	position: absolute;
 	font-family: 'Source Code Pro';
@@ -90,7 +93,7 @@ footer{
 	padding: 5px;
 	margin: auto;
 	position:fixed;
-	top: 440px;
+	top: 460px;
 	left: 10px;
 }
 }
@@ -154,6 +157,9 @@ h2, h3{
 	font-weight: 200;
 	font-size: 15px;
 	line-height: 15px;
+}
+p{
+	font-size: 14px;
 }
 footer{
 	position: absolute;
@@ -229,6 +235,9 @@ h2, h3{
 	font-weight: 200;
 	font-size: 25px;
 	line-height: 15px;
+}
+p{
+	font-size: 16px;
 }
 footer{
 	position: absolute;
