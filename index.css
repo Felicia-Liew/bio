@@ -1,0 +1,168 @@
+@import url("./_reset.css");
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Source Code Pro' ;
+}
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+}
+.header img {
+	display: flex;
+	position: fixed;
+}
+@media (min-width: 320px) {
+h1{
+	display: flex;
+	flex: 0;
+	margin: auto;
+	text-align: center;
+	font-family: 'Source Code Pro';
+	font-weight: 200;
+	font-size: 100px;
+	color: white;
+	padding: 20px;
+	text-shadow:-5px 3px 2px Gray;
+	line-height: 130px;
+}
+.nav-bar ul{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+.nav-bar li{
+	display: flex;
+	padding: 10px;
+	letter-spacing: 0px;
+	font-size: 14px;
+	font-weight: 200;
+	margin-left: 40px;
+	color: lightGray;
+	position: relative;
+	left: 60px;
+}
+a:link {
+	color: lightGray;
+	text-decoration: none;
+}
+a:hover {
+	color: lightGray;
+	text-decoration: underline;
+}
+a:active {
+	color: lightGray;
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+}
+@media (min-width: 600px) {
+h1{
+	display: flex;
+	flex: 0;
+	margin: auto;
+	text-align: center;
+	font-family: 'Source Code Pro';
+	font-weight: 200;
+	font-size: 200px;
+	color: white;
+	padding: 20px;
+	text-shadow:-8px 5px 2px Gray;
+	line-height: 230px;
+}
+.nav-bar ul{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+.nav-bar li{
+	display: flex;
+	padding: 10px;
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 200px;
+	color: lightGray;
+	left: 0px;
+}
+a:link {
+	color: lightGray;
+	text-decoration: none;
+}
+a:hover {
+	color: lightGray;
+	text-decoration: underline;
+}
+a:active {
+	color: lightGray;
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+}
+@media (min-width: 800px) {
+.nav-bar {
+	display: flex;
+	margin: auto;
+	top: 220px;
+}
+.nav-bar ul{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+.nav-bar li{
+	display: flex;
+	padding: 10px;
+	letter-spacing: 1px;
+	font-size: 25px;
+	font-weight: 200;
+	margin-left: 20px;
+	color: lightGray;
+	left: 0px;
+}
+a:link {
+	color: lightGray;
+	text-decoration: none;
+}
+a:hover {
+	color: lightGray;
+	text-decoration: underline;
+}
+a:active {
+	color: lightGray;
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+h1{
+	display: flex;
+	margin: auto;
+	text-align: center;
+	font-family: 'Source Code Pro';
+	font-weight: 200;
+	font-size: 300px;
+	color: white;
+	padding: 20px;
+	text-shadow:-8px 5px 2px Gray;
+	line-height: 230px;
+}
+}
+
+
+ 
